@@ -23,10 +23,10 @@ export const ChatbarSettings: FC<Props> = ({
   apiKey,
   conversationsCount,
   onToggleLightMode,
-  onApiKeyChange,
+  /*onApiKeyChange, */
   onClearConversations,
   onExportConversations,
-  onImportConversations,
+  /*onImportConversations,*/
 }) => {
   const { t } = useTranslation('sidebar');
   return (
