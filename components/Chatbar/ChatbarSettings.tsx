@@ -12,10 +12,10 @@ interface Props {
   apiKey: string;
   conversationsCount: number;
   onToggleLightMode: (mode: 'light' | 'dark') => void;
-  onApiKeyChange: (apiKey: string) => void;
+  /*onApiKeyChange: (apiKey: string) => void; */
   onClearConversations: () => void;
   onExportConversations: () => void;
-  onImportConversations: (data: SupportedExportFormats) => void;
+   /*onImportConversations: (data: SupportedExportFormats) => void;*/
 }
 
 export const ChatbarSettings: FC<Props> = ({
