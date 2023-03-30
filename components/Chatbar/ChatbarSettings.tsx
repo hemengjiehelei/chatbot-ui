@@ -12,7 +12,7 @@ interface Props {
   apiKey: string;
   conversationsCount: number;
   onToggleLightMode: (mode: 'light' | 'dark') => void;
-  onApiKeyChange: (apiKey: string) => void; 
+  onApiKeyChange: (apiKey: string) => void;
   onClearConversations: () => void;
   onExportConversations: () => void;
   onImportConversations: (data: SupportedExportFormats) => void;
@@ -23,7 +23,7 @@ export const ChatbarSettings: FC<Props> = ({
   apiKey,
   conversationsCount,
   onToggleLightMode,
-  onApiKeyChange, 
+  onApiKeyChange,
   onClearConversations,
   onExportConversations,
   onImportConversations,
@@ -34,6 +34,8 @@ export const ChatbarSettings: FC<Props> = ({
       {conversationsCount > 0 ? (
         <ClearConversations onClearConversations={onClearConversations} />
       ) : null}
+
+      <Import onImport={onImportConversations} />
 
       <SidebarButton
         text={t('Export conversations')}
@@ -50,7 +52,8 @@ export const ChatbarSettings: FC<Props> = ({
           onToggleLightMode(lightMode === 'light' ? 'dark' : 'light')
         }
       />
-      
+
+      <Key apiKey={apiKey} onApiKeyChange={onApiKeyChange} />
     </div>
   );
 };
