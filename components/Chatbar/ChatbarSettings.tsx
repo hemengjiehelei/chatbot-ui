@@ -35,8 +35,10 @@ export const ChatbarSettings: FC<Props> = ({
         <ClearConversations onClearConversations={onClearConversations} />
       ) : null}
 
+      /*
       <Import onImport={onImportConversations} />
-
+      */
+      
       <SidebarButton
         text={t('Export conversations')}
         icon={<IconFileExport size={18} />}
@@ -52,8 +54,11 @@ export const ChatbarSettings: FC<Props> = ({
           onToggleLightMode(lightMode === 'light' ? 'dark' : 'light')
         }
       />
-
+      
+      /*
       <Key apiKey={apiKey} onApiKeyChange={onApiKeyChange} />
+      */
+      
     </div>
   );
 };
