@@ -672,7 +672,7 @@ const Home: React.FC<HomeProps> = ({
                 </button>
                 <div
                   onClick={handleToggleChatbar}
-                  className="absolute top-0 left-0 z-10 h-full w-full bg-black opacity-70 sm:hidden"
+                  className="absolute top-0 left-0 z-10 w-full h-full bg-black opacity-70 sm:hidden"
                 ></div>
               </div>
             ) : (
@@ -701,8 +701,8 @@ const Home: React.FC<HomeProps> = ({
                 stopConversationRef={stopConversationRef}
               />
             </div>
-            /*
-            {showPromptbar ? (
+
+            {/* {showPromptbar ? (
               <div>
                 <Promptbar
                   prompts={prompts}
@@ -723,7 +723,7 @@ const Home: React.FC<HomeProps> = ({
                 </button>
                 <div
                   onClick={handleTogglePromptbar}
-                  className="absolute top-0 left-0 z-10 h-full w-full bg-black opacity-70 sm:hidden"
+                  className="absolute top-0 left-0 z-10 w-full h-full bg-black opacity-70 sm:hidden"
                 ></div>
               </div>
             ) : (
@@ -733,9 +733,7 @@ const Home: React.FC<HomeProps> = ({
               >
                 <IconArrowBarLeft />
               </button>
-            )}
-            */
-            
+            )} */}
           </div>
         </main>
       )}
