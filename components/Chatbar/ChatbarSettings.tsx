@@ -30,12 +30,12 @@ export const ChatbarSettings: FC<Props> = ({
 }) => {
   const { t } = useTranslation('sidebar');
   return (
-    <div className="flex flex-col items-center space-y-1 border-t border-white/20 pt-1 text-sm">
+    <div className="flex flex-col items-center pt-1 space-y-1 text-sm border-t border-white/20">
       {conversationsCount > 0 ? (
         <ClearConversations onClearConversations={onClearConversations} />
       ) : null}
 
-      <Import onImport={onImportConversations} />
+      {/* <Import onImport={onImportConversations} /> */}
 
       <SidebarButton
         text={t('Export conversations')}
@@ -53,7 +53,7 @@ export const ChatbarSettings: FC<Props> = ({
         }
       />
 
-      <Key apiKey={apiKey} onApiKeyChange={onApiKeyChange} />
+      {/* <Key apiKey={apiKey} onApiKeyChange={onApiKeyChange} /> */}
     </div>
   );
 };
