@@ -5,7 +5,7 @@
   "Stop Generating": "停止生成",
   "Prompt limit is {{maxLength}} characters": "提示字数限制为 {{maxLength}} 个字符",
   "System Prompt": "系统提示",
-  "You need to apply for an account and send it to 689623@cimc.com": "大家好，由于chatGPT小程序这段时间没有任何限制开放给大家，现在chatGPT API额度已经用完，为了保持良性可持续使用，现对chatGPT Mendix小程序进行升级，未来将使用Mendix账号登录授权使用，请使用中集企业邮箱发邮件至数字中心部门申请账号，邮箱地址：689623@cimc.com。邮件标题请写《chatGPT小程序账号申请》，邮件内容请写您所在的部门，姓名，工号。小程序升级完成后，将给你邮件回复新系统登录地址及账号密码。感谢理解~",
+  "You need to apply for an account and send it to 689623@cimc.com": "我是 ChatGPT，一个由 OpenAI 训练的大型语言模型。你可以问我任何问题，比如：做一个项目汇报模板、做一个项目周报模板、做一个商业计划书等问题，来感受chatGPT强大的功能吧。PS：无需科学上网，如果存在回复延迟，刷新页面重新进入即可。",
   "Enter a prompt": "输入一个提示",
   "Regenerate response": "重新生成回应",
   "Sorry, there was an error.": "抱歉，出现了错误。",
