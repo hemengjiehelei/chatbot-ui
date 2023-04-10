@@ -257,7 +257,10 @@ export const ChatInput: FC<Props> = ({
             <IconRepeat size={16} /> {t('Regenerate response')}
           </button>
         )}
-
+        
+        
+        /*
+        
         <div className="relative mx-2 flex w-full flex-grow flex-col rounded-md border border-black/10 bg-white shadow-[0_0_10px_rgba(0,0,0,0.10)] dark:border-gray-900/50 dark:bg-[#40414F] dark:text-white dark:shadow-[0_0_15px_rgba(0,0,0,0.10)] sm:mx-4">
           <textarea
             ref={textareaRef}
@@ -310,6 +313,9 @@ export const ChatInput: FC<Props> = ({
             />
           )}
         </div>
+        
+        */
+        
       </div>
       <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
        {' '}
